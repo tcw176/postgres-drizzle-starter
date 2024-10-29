@@ -1,4 +1,4 @@
-Drizzle starter code that is connected to local Postgres DB.
+Drizzle starter code that is connected to local Postgres DB for push to DB example.
 
 Starter file code.
 https://orm.drizzle.team/docs/get-started/postgresql-new

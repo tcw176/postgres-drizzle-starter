@@ -1,7 +1,7 @@
 import 'dotenv/config';
 import { drizzle } from 'drizzle-orm/node-postgres';
 import { eq } from 'drizzle-orm';
-import { users } from './db/schema/users';
+import { users } from './db/schema';
 import { uuid } from "drizzle-orm/pg-core";
 
 // Run this command from the terminal to execute Typescript 

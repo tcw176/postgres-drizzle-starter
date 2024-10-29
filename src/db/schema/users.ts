@@ -10,9 +10,9 @@
 // see this to generate uuid. 
 // https://orm.drizzle.team/docs/column-types/pg#default-value
 
-/* import { integer, serial, pgTable, uuid, varchar, timestamp} from "drizzle-orm/pg-core";
+import { integer, serial, pgTable, uuid, varchar, timestamp} from "drizzle-orm/pg-core";
 
-export const usersTable = pgTable("users", {
+export const users = pgTable("users", {
   //id: integer().primaryKey().generatedAlwaysAsIdentity(),
   id: uuid("id").primaryKey().defaultRandom(),
   seqNo: serial(),
@@ -24,4 +24,4 @@ export const usersTable = pgTable("users", {
   role: varchar("role", { length: 20 }).notNull(),              // Role column as varchar
   createdAt: timestamp("created_at", { withTimezone: true })
     .defaultNow(),                                              // Default to current timestamp
-}); */
+});
